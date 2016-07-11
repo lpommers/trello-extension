@@ -9,3 +9,5 @@ chrome.tabs.onUpdated.addListener(tabId => {
 });
 
 console.log('\'Allo \'Allo! Event Page for Page Action');
+
+console.log(window.Trello);

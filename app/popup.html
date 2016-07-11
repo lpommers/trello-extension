@@ -11,15 +11,21 @@
     <!-- endbuild -->
   </head>
   <body>
-    <h1>'Allo, 'Allo!</h1>
+    <h1>You need to authenticate</h1>
 
+    <a href="#" id="authenticate" type="button">Authenticate</a>
     <!-- build:js scripts/popup-vendor.js -->
     <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="scripts/trello.js"></script>
+    <script src="scripts/hashSearch.js"></script>
+
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:js scripts/popup.js -->
     <script src="scripts/popup.js"></script>
+
     <!-- endbuild -->
   </body>
 </html>
