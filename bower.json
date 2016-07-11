@@ -2,7 +2,9 @@
   "name": "trello-extension",
   "private": true,
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
